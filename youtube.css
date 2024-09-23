@@ -127,7 +127,7 @@ body{
     display: block;
     position: absolute;
     top: 60px;
-    background-color:rgba(11, 15, 13,0.58);
+    background-color:rgba(11, 15, 13,0.7);
     color: white;
     z-index: 1000;
     font-size: 12px;
@@ -190,7 +190,6 @@ body{
     scrollbar-width: none;
     height: 700px;
     width: 300px;
-    box-shadow: 0px 0px 50px black;
 }
 .My-profile{
     display: flex;
