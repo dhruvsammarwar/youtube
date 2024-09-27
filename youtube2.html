@@ -19,7 +19,7 @@
             <i class="fa-solid fa-bars" id="icons"></i>
             <img class="img5" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/YouTube_TV_logo.svg/1024px-YouTube_TV_logo.svg.png" alt="">
           
-            <i style="color: black; font-size: 20px; padding: 10px;"  class="fa-solid fa-magnifying-glass"></i> 
+            <i style="color: black; font-size: 20px; padding: 10px;"  class="fa-solid fa-magnifying-glass" id="magnifying"></i> 
         </div>
         <div class="bottom-bar">
             <div>
@@ -347,10 +347,11 @@
                        <img class="img2" src="https://i.pinimg.com/originals/9a/77/db/9a77db0d3793bb8c4170658776d948c8.jpg" alt="">
                     <div class="grid">
                           <p class="name">GTA 5 : Franklin Save his House form biggest tsunami(GTA 5 Gameplay)</p>
-                        
+                        <div class="grid1">
                           <p class="channal2">AJ Gaming</p>
           
                           <p class="channal2">1.2M view 	&#183 6 months ago</p>
+                        </div>  
                     </div>
                     <div>
                         <i class="fa-solid fa-ellipsis-vertical" id="more"></i>
@@ -370,10 +371,11 @@
                        <img class="img2" src="data:image/png;base64,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" alt="">
                     <div class="grid">
                        <p class="name">The Boys - Season 4 Officil trailer ! Prime Video India</p>
-   
+                       <div class="grid1">
                        <p class="channal2">Prime Video India</p>
    
                        <p class="channal2">25M view 	&#183 6 months ago</p>
+                       </div>
                     </div>
                     <div>
                         <i class="fa-solid fa-ellipsis-vertical" id="more"></i>
@@ -393,10 +395,11 @@
                       <img class="img2" src="https://yt3.googleusercontent.com/ytc/AIdro_m-ZGYEhrhbHr9wR202q4kf33QEh8vB7uI9ZDf8hjwYal4=s900-c-k-c0x00ffffff-no-rj" alt="">
                     <div class="grid">
                          <p class="name">BLACK MYTH WUKONG Gameplay walkthrough full gameplay [4K 60FPS] </p>
-
+                         <div class="grid1">
                          <p class="channal2">CarryisLive</p>
 
                          <p class="channal2">110M view 	&#183 6 months ago</p>
+                        </div>
                     </div>
                     <div>
                         <i class="fa-solid fa-ellipsis-vertical" id="more"></i>
@@ -416,10 +419,11 @@
                        <img class="img2" src="https://yt3.googleusercontent.com/ytc/AIdro_l4Zf-CYDJFzk_0_46WN79RSGyN3LWi0DeHGj8Uukzsirs=s900-c-k-c0x00ffffff-no-rj" alt="">
                     <div class="grid">
                            <p class="name">We created a house to survive Zombie Attack in Minecraft[Full Gameplay]</p>
-
+                           <div class="grid1">
                            <p class="channal2">YesSmartyPie</p>
 
                            <p class="channal2">833K view 	&#183 6 months ago</p>
+                           </div>
                     </div>
                     <div>
                         <i class="fa-solid fa-ellipsis-vertical" id="more"></i>
@@ -439,10 +443,11 @@
                         <img class="img2" src="https://yt3.googleusercontent.com/_rO8IOjqWOx-nB8q3TX0Wag1McsdxxNgT2CF9m-oLU5U7H-p0QdEuPkDC37Hjldu7pjzd0X4Og=s900-c-k-c0x00ffffff-no-rj" alt="">
                     <div class="grid">
                         <p class="name">HanumanKind - Big Dawgs ! official Music Video</p>
-
+                        <div class="grid1">
                         <p class="channal2">HanumanKind</p>
 
                         <p class="channal2">80M view 	&#183 6 months ago</p>
+                        </div>
                     </div>
                     <div>
                         <i class="fa-solid fa-ellipsis-vertical" id="more"></i>
@@ -462,10 +467,11 @@
                        <img class="img2" src="https://i.pinimg.com/originals/9f/aa/a1/9faaa1fedc94c355a4256ba6207c7714.png" alt="">
                     <div class="grid">
                       <p class="name">How to compete against CS degree (as a self-tough dev)</p>
-
+                      <div class="grid1">
                       <p class="channal2">Super simple dev</p>
 
                       <p class="channal2">5,7k view 	&#183 6 months ago</p>
+                      </div>
                     </div>
                     <div>
                         <i class="fa-solid fa-ellipsis-vertical" id="more"></i>
@@ -485,10 +491,11 @@
                        <img class="img2" src="https://yt3.googleusercontent.com/NUwODdoUjXFQrXUnzc-zsxe4PP1QDUuT3g92FRPH2wRYteogeQUNEZDAt5UfkIqKbsydVGjg=s900-c-k-c0x00ffffff-no-rj" alt="">
                     <div class="grid">
                         <p class="name">ONE PIECE - Luffy vs Big Mom in Whole Cake island</p>
-
+                        <div class="grid1">
                         <p class="channal2">Toei animation</p>
 
                         <p class="channal2">3.1M view 	&#183 6 months ago</p>
+                        </div>
                     </div>
                   <div>
                       <i class="fa-solid fa-ellipsis-vertical" id="more"></i>
@@ -507,11 +514,12 @@
                        <div class="container1">
                        <img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJAY4MatubDs1LpnN4ASq88SafZEhB8Pzl4A&s" alt="">
                     <div class="grid">
-                        <p class="name">TOP 10 Anime To watch before you die !</p>
-
+                        <p class="name">TOP 10 Anime To watch before you die !!!!!!</p>
+                        <div class="grid1">
                          <p class="channal2">Anime news</p>
 
                          <p class="channal2">152K view 	&#183 6 months ago</p>
+                    </div>
                     </div>
                   <div>
                     <i class="fa-solid fa-ellipsis-vertical" id="more"></i>
@@ -530,11 +538,12 @@
                        <div class="container1">
                          <img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSngEyeGGBNKcr56T1bWWf2legTvqpMLxEWTA&s" alt="">
                     <div class="grid">
-                         <p class="name">5 Tips to play like a Boss in Apex Legend</p>
-
+                         <p class="name">5 Tips to play like a Boss in Apex Legend!!!!</p>
+                         <div class="grid1">
                          <p class="channal2">Total Gaming</p> 
 
                          <p class="channal2">53K view 	&#183 6 months ago</p>
+                        </div>
                     </div>
                   <div>
                      <i class="fa-solid fa-ellipsis-vertical" id="more"></i>
@@ -564,68 +573,80 @@
 
         <div class="container6">
             <div class="Shorts">
-                    <img class="shorts-img" src="https://wallpapers.com/images/hd/trevor-of-gta-5-5o0seospeum1vnqc.jpg" alt="" > 
+                    <img class="shorts-img" src="https://i.ytimg.com/vi/emki5xdcc_8/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLD2kK9ACdbAKWmf0JGh4EQ_7SUgsw" alt="" > 
                 <div class="descrption">
-                    <div>
-                          <p class="name">One Of The Best Sigma Males In Gaming 😈 | #gta #shorts</p>
-                          <p class="channal2">53K view</p>
+                    <div class="descrption1">
+                          <p class="name1">One Of The Best Sigma Males In Gaming 😈 | #gta #shorts</p>
+                          <p class="channal3">53K view</p>
                     </div>
-                    <div>
+                    <div class="ellipsis-more">
                         <i class="fa-solid fa-ellipsis-vertical" id="more"></i>
                     </div>
                 </div>
             </div>
             <div class="Shorts">
-                    <img class="shorts-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBTHz2EW4DGW0Hp31xLDzx1TocflwH1I7Dzg&s" alt="" > 
+                    <img class="shorts-img" src="https://i.ytimg.com/vi/vkUXc9pO0gw/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCmL_M0K1SfxndloxqqsisU1CaiXA" alt="" > 
                 <div class="descrption">
-                    <div>
-                      <p class="name">SIMULANT Trailer 2 (2023) #shorts #trailer #movie...</p>
-                      <p class="channal2">53K view</p>
+                    <div class="descrption1" >
+                      <p class="name1">SIMULANT Trailer 2 (2023) #shorts #trailer #movie...</p>
+                      <p class="channal3">53K view</p>
                     </div>
-                  <div>
+                  <div class="ellipsis-more">
                       <i class="fa-solid fa-ellipsis-vertical" id="more"></i>
                   </div>
                 </div>
             </div>
             <div class="Shorts">
-                       <img class="shorts-img" src="https://m.media-amazon.com/images/M/MV5BY2MwMjZmNGYtYjY5Mi00NWFjLWFmYWMtMThiOTY0ZjYzMTk4XkEyXkFqcGdeQXVyNDc2NjEyMw@@._V1_.jpg" alt="" > 
+                       <img class="shorts-img" src="https://i.ytimg.com/vi/za1VdwKaimU/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLBcFCF02VaMH3x4S-FyyAZs6g4xXQ" alt="" > 
                 <div class="descrption">
-                    <div>
-                      <p class="name">Grandma's Moon (vertical short film) - Vertical Stories</p>
-                      <p class="channal2">53K view</p>
+                    <div class="descrption1">
+                      <p class="name1">Grandma's Moon (vertical short film) - Vertical Stories</p>
+                      <p class="channal3">53K view</p>
                     </div>
-                  <div>
+                  <div class="ellipsis-more">
                       <i class="fa-solid fa-ellipsis-vertical" id="more"></i>
                   </div>
                 </div>
             </div>
             <div class="Shorts">
-                     <img class="shorts-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3207vSJ80J1-5AauzVpkGCq6X0hxJ3cRPvw&s" alt="" > 
+                     <img class="shorts-img" src="https://i.ytimg.com/vi/nxfkX4lJ55U/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDDte-gh3bdB1efdfW63Gcmn8Y-OA" alt="" > 
                 <div class="descrption">
-                    <div>
-                       <p class="name">GTA 5 : Franklin Save his House</p>
-                       <p class="channal2">53K view</p>
+                    <div class="descrption1">
+                       <p class="name1">GTA 5 : Franklin Save his House</p>
+                       <p class="channal3">53K view</p>
                     </div>
-                       <div>
+                       <div class="ellipsis-more">
                            <i class="fa-solid fa-ellipsis-vertical" id="more"></i>
                       </div>
                 </div>
             </div>
             <div class="Shorts">
-                     <img class="shorts-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6PRGUVmHA6r-sPEoOGXYa2iGBMOISka2PiA&s" alt="" > 
+                     <img class="shorts-img" src="https://i.ytimg.com/vi/mpa0KfhSdJY/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLCsBwU5qPeRgoF1ieB1luT682GSOw" alt="" > 
                 <div class="descrption">
-                    <div>
-                       <p class="name">Strawhats Bounty After Wano | Wellerman...</p>
-                       <p class="channal2">53K view</p>
+                    <div  class="descrption1">
+                       <p class="name1">Strawhats Bounty After Wano | Wellerman...</p>
+                       <p class="channal3">53K view</p>
                     </div>
-                    <div>
+                    <div class="ellipsis-more">
                          <i class="fa-solid fa-ellipsis-vertical" id="more"></i>
                     </div> 
                 </div>  
             </div>
 
-           
-      
+            <div class="Shorts1">
+                <img class="shorts-img" src="https://i.ytimg.com/vi/EV9GIqzkuO0/oardefault.jpg?sqp=-oaymwEdCJQDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLB8-gc1ryyjKZg7Z-YR2bhJ1YdtOA" alt="" > 
+           <div class="descrption">
+               <div  class="descrption1">
+                  <p class="name1">Ranga X kaayi song 	&#128293 Pt.1. #shortzing #dostistatus</p>
+                  <p class="channal3">53K view</p>
+               </div>
+               <div class="ellipsis-more">
+                    <i class="fa-solid fa-ellipsis-vertical" id="more"></i>
+               </div> 
+           </div>  
+       </div>
+
+    
 
             <div class="container2">
                 <div class="image">
@@ -640,10 +661,11 @@
                          <img class="img2" src="https://yt3.googleusercontent.com/xFcW17W-KgxGMnGvOEWz7OTcGG3NknTgXXq3drl6GlXPoOGjA2Oss4rpX1jyi_Fi_Dw3sKJnTA=s900-c-k-c0x00ffffff-no-rj" alt="">
                     <div class="grid">
                          <p class="name">[Full] He Thinks That He Is Weak But He Is Actually The Most Powerful Warrior in Hindi</p>
-
+                         <div class="grid1">
                          <p class="channal2">Animetrix</p> 
 
                          <p class="channal2">53K view 	&#183 6 months ago</p>
+                         </div>
                     </div>
                   <div>
                      <i class="fa-solid fa-ellipsis-vertical" id="more"></i>
@@ -662,11 +684,12 @@
                        <div class="container1">
                          <img class="img2" src="https://yt3.googleusercontent.com/gfs_v0NOG2tM2UtFinWb4qm5dgSJphHey6orjUg47wTObFpQCwKmZCjTBwO2txSH9LYElhrg=s900-c-k-c0x00ffffff-no-rj" alt="">
                     <div class="grid">
-                         <p class="name">Coaching ft. Childhood | NOT YOUR TYPE</p>
-
+                         <p class="name">Coaching ft. Childhood | NOT YOUR TYPE!!!!!</p>
+                         <div class="grid1">
                          <p class="channal2">NOTE YOUR TYPE</p> 
 
                          <p class="channal2">11M view 	&#183  3 Year ago</p>
+                         </div>
                     </div>
                   <div>
                      <i class="fa-solid fa-ellipsis-vertical" id="more"></i>
@@ -686,10 +709,11 @@
                          <img class="img2" src="https://yt3.googleusercontent.com/ytc/AIdro_lmaYOjcRw0-wAZKvvECrErNkHPIFrM7Lc-ntx5nxRGaLo=s900-c-k-c0x00ffffff-no-rj" alt="">
                     <div class="grid">
                          <p class="name">NARAK | Stand-up Comedy by Samay Raina</p>
-
+                         <div class="grid1">
                          <p class="channal2">Samay Raina</p> 
 
                          <p class="channal2">11M view 	&#183 2 year ago</p>
+                         </div>
                     </div>
                   <div>
                      <i class="fa-solid fa-ellipsis-vertical" id="more"></i>
